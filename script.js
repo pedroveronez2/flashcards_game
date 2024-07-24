@@ -117,55 +117,30 @@
 
     var cards = [
         {
-            name: "run",
-            img: "https://via.placeholder.com/150/000000/FFFFFF/?text=Run",
+            name: "bitter",
+            img: "./img/bitter.jpg",
             id: 1,
         },
         {
-            name: "walk",
-            img: "https://via.placeholder.com/150/000000/FFFFFF/?text=Walk",
+            name: "grow",
+            img: "./img/grow.jpg",
             id: 2
         },
         {
-            name: "eat",
-            img: "https://via.placeholder.com/150/000000/FFFFFF/?text=Eat",
+            name: "peep",
+            img: "./img/peep.jpg",
             id: 3
         },
         {
-            name: "drink",
-            img: "https://via.placeholder.com/150/000000/FFFFFF/?text=Drink",
+            name: "stuff",
+            img: "./img/stuff.jpg",
             id: 4
         },
         {
-            name: "sleep",
-            img: "https://via.placeholder.com/150/000000/FFFFFF/?text=Sleep",
+            name: "tastier",
+            img: "./img/tastier.jpg",
             id: 5
         },
-        {
-            name: "write",
-            img: "https://via.placeholder.com/150/000000/FFFFFF/?text=Write",
-            id: 6
-        },
-        {
-            name: "read",
-            img: "https://via.placeholder.com/150/000000/FFFFFF/?text=Read",
-            id: 7
-        },
-        {
-            name: "play",
-            img: "https://via.placeholder.com/150/000000/FFFFFF/?text=Play",
-            id: 8
-        },
-        {
-            name: "jump",
-            img: "https://via.placeholder.com/150/000000/FFFFFF/?text=Jump",
-            id: 9
-        },
-        {
-            name: "swim",
-            img: "https://via.placeholder.com/150/000000/FFFFFF/?text=Swim",
-            id: 10
-        }
     ];
 
     Memory.init(cards);
